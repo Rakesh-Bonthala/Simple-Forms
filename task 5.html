@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Rakesh Bonthala</h1>
+    <nav>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Welcome!</h2>
+      <p>This is my dynamic, responsive, and optimized portfolio web app.</p>
+      <img src="WhatsApp Image 2025-07-17 at 10.16.04_c8c35802.jpg" width="140" loading="lazy" alt="Profile Image">
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>E-Commerce Website</h3>
+        <p>Built with HTML, CSS, and JS. Responsive and fast-loading.</p>
+        <button onclick="showDetails('ecommerce')">Details</button>
+      </div>
+      <div class="project-card">
+        <h3>Blog Platform</h3>
+        <p>Created a full-stack blog using dynamic features.</p>
+        <button onclick="showDetails('blog')">Details</button>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rakesh Bonthala</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
